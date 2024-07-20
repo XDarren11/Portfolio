@@ -263,6 +263,10 @@ span {
     background-color: transparent;
 }
 
+.language-box svg {
+    margin: 0 1rem;
+}
+
 .language-box P {
     font-size: 1.8rem;
 }
