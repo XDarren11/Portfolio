@@ -66,5 +66,11 @@ const typed = new Typed('.multiple-text', {
 
 
 readMore.addEventListener('click', () =>  {
-    ocultTxt.classList.add('show-text'); 
-})
+    ocultTxt.classList.toggle('show-text'); // Alterna la visibilidad del texto
+    if (ocultTxt.classList.contains('show-text')) {
+        readMore.textContent = 'Read less'; // Si el texto está visible
+    } else {
+        readMore.textContent = 'Read more'; // Si el texto está oculto
+    }
+});
+

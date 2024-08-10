@@ -651,6 +651,11 @@ span {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .language-box svg{
+        width: 5rem;
+        height: 5rem;
+    }
+
 }
 
 @media (max-width: 617px) {
@@ -685,6 +690,12 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .language-box svg{
+        width: 4.3rem;
+        height: 4.3rem;
+        margin-left: 0.7rem;
     }
 }
 
